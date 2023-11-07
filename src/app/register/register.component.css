@@ -1,0 +1,41 @@
+.backgroundimg {
+    background-image: url('/assets/3.jpg'); /* Replace 'black.jpg' with the actual path to your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    height: 110vh; /* Set the height to 100vh to cover the entire viewport height */
+}
+.custom-bg-color {
+    background-color: rgb(128, 77, 41); /* You can change 'blue' to any color you prefer */
+  }
+  
+  .custom-bg-color .navbar-nav .nav-link {
+    color: white; /* Sets the text color to white */
+  }
+
+  .custom-bg-color .navbar-brand {
+    color: black; /* Sets the text color of the navbar brand to black */
+    font-weight: bold;
+    text-shadow: 
+    0 0 3px #faebdc, 
+    0 0 5px #faebdc; 
+  }
+
+
+
+  .footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    font-weight: bold;
+    background-color: rgb(128, 77, 41); 
+    color: rgb(207, 205, 205);
+  }
+  
+  .centertext{
+    text-align: center;
+  }

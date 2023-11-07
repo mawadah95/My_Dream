@@ -1,0 +1,105 @@
+.backgroundimg {
+    background-image: url('/assets/3.jpg'); /* Replace 'black.jpg' with the actual path to your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    height: 110vh; /* Set the height to 100vh to cover the entire viewport height */
+}
+
+.transparent-container {
+    background-color: rgba(255, 255, 255, 0.5); /* Use rgba to set the background color with an alpha (transparency) value */
+    border: 1px solid #ccc; /* Optional: Add border for visual distinction */
+    padding: 20px; /* Optional: Add padding to the container */
+  }
+  
+  .known-font { 
+    font-family: "comic sans MS", cursive, sans-serif; 
+    font-size: 50px; 
+    color: black;
+    font-weight: bold;
+    text-align: left; 
+} 
+
+
+
+/* Define the animation */
+/*@keyframes moveText {
+    0% { transform: translateX(0); }  Start position */
+   /* 100% { transform: translateX(200px); }  End position 
+}
+*/
+/* Apply the animation to the text */
+.text {
+   /*  animation: moveText 2s infinite; 2s duration, infinite times */
+    font-family:"Brush Script MT", cursive;
+}
+
+
+
+/* Custom CSS to change the menu color to black 
+.custom-navbar {
+    background-color: rgb(123, 28, 28);  
+}
+
+.custom-navbar .navbar-nav .nav-link {
+    color: white; 
+}
+
+.custom-navbar .navbar-toggler-icon {
+    background-color: white; 
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+}
+*/
+
+
+
+ 
+
+@keyframes scrollImages {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.custom-bg-color {
+    background-color: rgb(128, 77, 41); 
+  }
+  
+  .custom-bg-color .navbar-nav .nav-link {
+    color: white; 
+  }
+
+  .custom-bg-color .navbar-brand {
+    color: black; 
+    font-weight: bold;
+    text-shadow: 
+    0 0 3px #faebdc, 
+    0 0 5px #faebdc; 
+    
+  }
+
+
+  .footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    font-weight: bold;
+    background-color: rgb(128, 77, 41); 
+    color: rgb(207, 205, 205);
+  }
+  
+  .centertext{
+    text-align: center;
+  }
